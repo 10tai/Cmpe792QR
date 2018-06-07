@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "480072124052",
+    "firebase_url": "https://attendance-system-9e021.firebaseio.com",
+    "project_id": "attendance-system-9e021",
+    "storage_bucket": "attendance-system-9e021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480072124052:android:55f797823634a803",
+        "android_client_info": {
+          "package_name": "com.cmpe492.attendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480072124052-9fhdep5r24gc6rgiir1k440t958u3qa3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzdKwld77N7o4Y5jwwqCHD2Mn9S4fqFKg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

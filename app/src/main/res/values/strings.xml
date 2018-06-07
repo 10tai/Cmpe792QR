@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AttendanceSystem</string>
+    <string name="view_qr">view qrcode</string>
+</resources>

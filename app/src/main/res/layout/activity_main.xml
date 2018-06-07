@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/name"
+        android:layout_marginBottom="@dimen/padding_login_middle"
+        android:hint="Student name"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="textPersonName"
+        style="@style/Widget.EditText.Custom"/>
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_marginBottom="@dimen/padding_login_middle"
+        android:hint="Roll No"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        style="@style/Widget.EditText.Custom"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/top_image"
+        android:src="@drawable/arrow"
+        app:borderWidth="0dp"
+        android:elevation="2dp"
+        app:pressedTranslationZ="8dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="2dp"
+        android:backgroundTintMode="src_in"
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/teacher"
+        android:text="i am a Teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

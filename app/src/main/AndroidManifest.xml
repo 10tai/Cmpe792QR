@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cmpe492.attendancesystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppGlobals"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".student.MainActivity"
+            android:label="Student Login!"
+            android:theme="@style/Base.AppTheme.ForMain"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".student.ScannerActivity"
+            android:theme="@style/Base.AppTheme.ForMain" />
+        <activity
+            android:name=".teacher.Main"
+            android:label="Teacher Login!"
+            android:theme="@style/Base.AppTheme.ForMain" />
+        <activity
+            android:name=".student.MarkAttendance"
+            android:label="Select Class" />
+        <activity
+            android:name=".teacher.ClassMenu"
+            android:label="All Classes" />
+        <activity
+            android:name=".teacher.AddActivity"
+            android:label="Add A class" />
+        <activity android:name=".teacher.AttendanceDetails" />
+        <activity android:name=".teacher.QRActivity"></activity>
+    </application>
+
+</manifest>
