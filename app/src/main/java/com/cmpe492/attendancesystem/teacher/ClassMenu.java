@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 
-/** this class teacher will see his all classes created by him before with time.
+/** this is the class teacher will see his all classes created by him before with time.
  *
  */
 public class ClassMenu  extends AppCompatActivity implements View.OnClickListener {

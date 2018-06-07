@@ -24,9 +24,9 @@ import java.util.List;
 import info.androidhive.barcode.BarcodeReader;
 
 /**
- * Here i am scanning the barcode and verifying the student verified the right Qr-code
+ * Here it scans the QR code verifies the student if it scanned the right Qr-code
  * physically.
- * Added an open source library 'androidhive:barcode-reader' for scanning Qr-code
+ * an open source library 'androidhive:barcode-reader' is used for scanning Qr-code
  */
 public class ScannerActivity extends AppCompatActivity  implements BarcodeReader.BarcodeReaderListener  {
 

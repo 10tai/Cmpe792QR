@@ -34,7 +34,7 @@ import java.util.HashMap;
 
 /**
  * As its name shows this class is to make sure that user selects a class and move to mark an attendance.
- * Moreover i am also checking weather a student has marked the Attendace for selected class or not.
+ * Moreover it's also checking whether a student has marked the attendance for selected class or not.
  */
 public class MarkAttendance extends AppCompatActivity {
 

@@ -32,7 +32,7 @@ import es.dmoral.prefs.Prefs;
 
 /**
  * This class is used to add the class name. I check weather class is already created ot not.
- * i make sure that there is no duplicate by putting time and date with the class name in database.`
+ * it makes sure that there is no duplicate by putting time and date with the class name in database.`
  */
 
 public class AddActivity extends AppCompatActivity implements View.OnClickListener {
